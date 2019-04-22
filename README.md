@@ -1,2 +1,2 @@
 # UVa-Online-Judge
-My solutions to Competitive Programming 3 bool problems
+My solutions to Competitive Programming3 book problems
