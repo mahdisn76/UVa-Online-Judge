@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\2">
+      <UniqueIdentifier>{08914c15-d8e7-45c4-b079-647edaf912b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2\2.2">
+      <UniqueIdentifier>{f6d6853c-f8ba-423b-9968-9c7fee97546a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3">
+      <UniqueIdentifier>{9e7877de-c586-4b19-9c0d-bca11c7ec192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3\3.2">
+      <UniqueIdentifier>{d643cda5-6265-4470-adc2-139c5654ec76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3\3.5">
+      <UniqueIdentifier>{297312e3-4f8f-408c-a73f-21e4e099be54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1">
+      <UniqueIdentifier>{4ed4d672-dad0-4551-b781-d7107c62dbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1\1.3">
+      <UniqueIdentifier>{332cbd4f-42f4-4708-9d61-96f4e6de8cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1\1.4">
+      <UniqueIdentifier>{2cd3f7ab-a311-43fb-9c82-3246dcec11b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2\2.3">
+      <UniqueIdentifier>{19ab4687-dcb6-4c2a-9821-a5b1d9442e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Templates">
+      <UniqueIdentifier>{049e6c02-0989-41b5-b70c-fc2adcbf1a9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="10038.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="11340.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="12356.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="00927.cpp">
+      <Filter>Source Files\3\3.2</Filter>
+    </ClCompile>
+    <ClCompile Include="01237.cpp">
+      <Filter>Source Files\3\3.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10976.cpp">
+      <Filter>Source Files\3\3.2</Filter>
+    </ClCompile>
+    <ClCompile Include="787.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="10684.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="00108.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="10827.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="00231.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="00507.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="10130.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="10664.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="10616.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="272.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="10819.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="357.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="10306.cpp">
+      <Filter>Source Files\3\3.5</Filter>
+    </ClCompile>
+    <ClCompile Include="11172.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11498.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11727.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11559.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11799.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="10114.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="10141.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11507.cpp">
+      <Filter>Source Files\1\1.3</Filter>
+    </ClCompile>
+    <ClCompile Include="462.cpp">
+      <Filter>Source Files\1\1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="10646.cpp">
+      <Filter>Source Files\1\1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="12247.cpp">
+      <Filter>Source Files\1\1.4</Filter>
+    </ClCompile>
+    <ClCompile Include="10855.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10920.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="11581.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="146.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10107.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10258.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="11988.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="514.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="732.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="1062.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10901.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="11034.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="11933.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="11926.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10264.cpp">
+      <Filter>Source Files\2\2.2</Filter>
+    </ClCompile>
+    <ClCompile Include="10226.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11286.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11572.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11849.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11136.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="978.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Template.cpp">
+      <Filter>Source Files\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="1203.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="10954.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+    <ClCompile Include="11995.cpp">
+      <Filter>Source Files\2\2.3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

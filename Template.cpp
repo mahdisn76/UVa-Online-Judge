@@ -5,7 +5,10 @@
 #include<math.h>
 #include<vector>
 #include<set>
+#include<stack>
 #include<map>
+#include<queue>
+#include<sstream>
 #define lli long long int
 #define ulli unsigned long long int
 #define rep(n) for(int i=0;i<n;i++)
