@@ -20,10 +20,11 @@ using namespace std;
 
 class UnionFind
 {
-private: vi parent, rank; int numOfSets; set<int> s;
+private: vi parent, rank, childNo; int numOfSets; set<int> s;
 public:
 	UnionFind(int N) {
 		rank.assign(N, 0);
+		childNo.assign(N, 1);
 		rep(i, N)
 		{
 			parent.push_back(i);
@@ -45,10 +46,16 @@ public:
 		{
 			int x = findSet(i), y = findSet(j);
 			if (rank[x] > rank[y])
+			{
 				parent[y] = x;
+				childNo[x] += childNo[y];
+				cout << childNo[x] << endl;
+			}
 			else
 			{
 				parent[x] = y;
+				childNo[y] += childNo[x];
+				cout << childNo[y] << endl;
 				if (rank[x] == rank[y])
 					rank[y]++;
 			}
@@ -60,6 +67,10 @@ public:
 				s.erase(x_itr);
 			if (y_itr != s.end())
 				s.erase(y_itr);
+		}
+		else
+		{
+			cout << childNo[findSet(i)] << endl;
 		}
 	}
 	int getNumberOfSets()
@@ -76,6 +87,27 @@ public:
 
 int main()
 {
+	int tc;
+	cin >> tc;
+	while (tc--)
+	{
+		int m;
+		cin >> m;
+		map<string, int> dic;
+		UnionFind uf(100001);
+		rep(i, m)
+		{
+			string a, b;
+			cin >> a >> b;
+			if (dic.find(a) == dic.end())
+				dic.insert(make_pair(a, dic.size()));
+			if (dic.find(b) == dic.end())
+				dic.insert(make_pair(b, dic.size()));
 
+			uf.unionSet(dic[a], dic[b]);
+		}
+	}
 	return 0;
 }
+
+//AC

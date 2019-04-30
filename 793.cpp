@@ -20,16 +20,12 @@ using namespace std;
 
 class UnionFind
 {
-private: vi parent, rank; int numOfSets; set<int> s;
+private: vi parent, rank;
 public:
 	UnionFind(int N) {
 		rank.assign(N, 0);
 		rep(i, N)
-		{
 			parent.push_back(i);
-			s.insert(i);
-		}
-		numOfSets = N;
 	}
 	int findSet(int i)
 	{
@@ -52,30 +48,42 @@ public:
 				if (rank[x] == rank[y])
 					rank[y]++;
 			}
-			numOfSets--;
-
-			auto x_itr = s.find(x),
-				y_itr = s.find(y);
-			if (x_itr != s.end())
-				s.erase(x_itr);
-			if (y_itr != s.end())
-				s.erase(y_itr);
 		}
 	}
-	int getNumberOfSets()
-	{
-		return numOfSets;
-	}
-
-	int getNumOfAcorns()
-	{
-		return s.size();
-	}
-
 };
 
 int main()
 {
+	int tc;
+	cin >> tc;
+	rep(i, tc)
+	{
+		if (i > 0)
+			cout << endl;
 
+		int n;
+		cin >> n;
+		int success = 0, unsuccess=0;
+
+		UnionFind uf(n);
+		string line;
+		cin.ignore();
+		while (getline(cin, line), line != "")
+		{
+			int a, b;
+			stringstream ss;
+			ss << line;
+			char tmp;
+			ss >> tmp >> a >> b;
+			--a; --b;
+			if (line[0] == 'q')
+				uf.isSameSet(a, b) ? ++success : ++unsuccess;
+			else
+				uf.unionSet(a, b);
+		}
+		printf("%d,%d\n", success, unsuccess);
+	}
 	return 0;
 }
+
+//AC
